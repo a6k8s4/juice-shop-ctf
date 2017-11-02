@@ -13,13 +13,13 @@ var juiceShopCtfCli = function () {
       type: 'input',
       name: 'juiceShopUrl',
       message: 'Juice Shop URL to retrieve challenges?',
-      default: 'https://juice-shop.herokuapp.com'
+      default: 'https://owaspctc.herokuapp.com'
     },
     {
       type: 'input',
       name: 'ctfKey',
       message: 'Secret key <or> URL to ctf.key file?',
-      default: 'https://raw.githubusercontent.com/bkimminich/juice-shop/master/ctf.key'
+      default: 'https://raw.githubusercontent.com/a6k8s4/juice-shop/master/ctf.key'
     },
     {
       type: 'list',
